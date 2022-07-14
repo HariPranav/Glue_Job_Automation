@@ -3,6 +3,11 @@ This repo contains the blog posts for automation of Glue Jobs along with the SNS
 
 SNS topic to be created with Email subscriptions
 
+
+![image](https://user-images.githubusercontent.com/28874545/178905147-5b2a1368-5aac-4566-bebb-7e5b00599a7e.png)
+
+Once the SNS topic has been created, create subscriptions. Here we need to enter the email Ids of the recepients, once we do that we get a conformation message from AWS which we need to accept. Once the conformation is done, we can create rules in event brigde based on the glue job state (Succeed or Failure)
+
 Glue Job from AWS console
 
 ![image](https://user-images.githubusercontent.com/28874545/178899483-1265f7b4-4180-4163-8f59-6402f32e8182.png)
